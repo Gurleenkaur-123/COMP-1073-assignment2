@@ -1,0 +1,65 @@
+/* Reset some default styles */
+body, figure, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq4v55fgTgheDzJyuaVyPjCMyAfcwOxqq_vA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+#gallery {
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Style for small images */
+li img {
+    border: 2px solid #c31010;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the large image */
+figure img {
+    border: 2px solid #0c0c0c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Add styling for the flower name */
+.flowerName {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
